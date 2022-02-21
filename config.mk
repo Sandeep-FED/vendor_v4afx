@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-VENDOR_PATH := vendor/viper4androidFX
+VENDOR_PATH := vendor/v4afx
 
 DEVICE_PACKAGE_OVERLAYS += $(VENDOR_PATH)/overlay-viper
 
@@ -20,4 +20,4 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(VENDOR_PATH)/vendor,vendor)
 
 PRODUCT_PACKAGES += \
-    viper4aFX
+    v4afx
